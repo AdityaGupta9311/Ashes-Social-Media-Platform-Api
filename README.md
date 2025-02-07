@@ -1,22 +1,47 @@
- Created the backend for Ashes, an interactive social media platform that empowers users to connect and
- engage with one another. Users can follow friends, like and comment on posts, search for other users,
- manage their profiles, create posts, make reels, and send messages. The platform's backend, built with
- Spring Boot, incorporates secure user authentication through Spring Security and JWT, with database
- management handled by Spring JPA. A responsive and interactive front end is implemented using React.
- 
- Key Features:
- Developed RESTful APIs for core functionalities such as user following, post creation, and messaging to
- enable dynamic social interactions.
- 
- Integrated React front-end with backend services to ensure a seamless user experience.
- Direct messaging capabilities for private user communication.
- 
- Secure registration and login process using Spring Security and JWT for session management.
+# 🔥 Ashes – Social Media API  
 
- Users can create, edit, and customize their profiles, including profile picture uploads.
- 
-Users can follow and unfollow others to curate their content feed.
+Ashes is a **Spring Boot-powered social media API** that enables users to **post, like, comment, follow/unfollow users, and send messages**. The API provides a **secure and scalable backend** for building a modern social networking platform.  
 
-Functionality for users to create and publish text and multimedia posts.
+---
 
-Direct messaging capabilities for private user communication.
+## 🚀 Features  
+
+### 👤 User Management  
+- 🔑 **User Authentication** – JWT-based secure login.  
+- 🔄 **Follow/Unfollow Users** – Connect with other users.  
+- 📝 **Profile Management** – Update user details.  
+
+### 📢 Post & Engagement  
+- 📸 **Create Posts & Reels** – Upload posts and short videos.  
+- ❤️ **Like & Comment** – Engage with posts.  
+- 🔍 **Search Users** – Find people by username.  
+
+### 💬 Messaging System  
+- 📩 **Send & Receive Messages** – One-on-one private messaging.  
+
+### 🔐 Security  
+- ✅ **Spring Security with JWT** – Ensures authentication.  
+- 📜 **Role-based Access (Planned)** – Admin/user privileges.  
+
+---
+
+## 🛠️ Tech Stack  
+- **Backend:** Spring Boot, Spring JPA, Hibernate, Spring Security, JWT  
+- **Database:** MySQL  
+- **Frontend:** *Not included in this repo*  
+
+---
+
+## 📌 Future Enhancements  
+- 🏷️ **Hashtags & Trending Topics**  
+- 🔔 **Real-time Notifications (WebSockets)**  
+- 📩 **Group Chats & Media Sharing**  
+
+---
+
+## 🎯 Getting Started  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/your-username/Ashes-API.git
+cd Ashes-API
